@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Card = ({ title, subTitle}) => {
+export const Card = ({ title = 'Nombre', subTitle='Cargo'}) => {
   
   return (
     <div className="cardContainer">

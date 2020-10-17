@@ -4,9 +4,15 @@ import { Card } from './components/ui/Card';
 
 function App() {
 
+  const user = {
+    id: 123,
+    name: 'Jenny',
+    role: 'Content Strategy'    
+  };
+
   return (
     <>
-     <Card title="Jenny" subTitle="Content Strategy" />
+     <Card title={ user.name } subTitle={ user.role } />     
     </>
   );
 }
