@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  height: 100vh;
+  background-color: #d4e4f3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
+}
+.loginContainer{
+  display: flex;
+  background-color: #fff;
+  flex-direction: row;
+  min-width: 350px;
+  /* border: 1px solid black;   */
+  padding: 1rem;
+  box-shadow: 3px 3px 13px #e8e8e8;
+  
+}
+.title{
+  padding-bottom: 1rem;
+  font-weight: 500;
+  color: #898993;
+  border-bottom: 1px solid #f1f1f1;
+  width: 100%;
+}
+.big{
+  text-transform: uppercase;
+}
+.loginSignIn{
+  min-width: 250px;  
+  padding: 2rem;
+  justify-content: center;  
+  align-self: center;  
+}
+.loginForm {
+  display: flex;
+  border: 1px;
+  flex-direction: column;
+  width: 100%;
+  
+}
+.iptPrimary{  
+  border: 1px solid lightgrey;
+  background: #fff;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-weight: 600;
+  color: #000;
+  
+}
+.cbkPrimary{
+  margin: 0 1rem .2rem;
+}
+.btnPrimary{
+  border: 0;
+  background-color: #008aff;
+  color: #fff;
+  padding: 1rem;
+}
+
+.radiusPrimary{
+  border-radius: 6px;
+}
+
+
+input::placeholder{
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+input:focus{
+  outline-offset: 0px;
+  outline: none;
+}
+.img-responsive{
+  max-width: 100%;
+}
